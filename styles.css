@@ -1,11 +1,16 @@
+
 /* width: 1376;
 height: 108;
 top: 12px;
 left: 32px; */
 
 
-body{
-    margin: 0;
+
+.container{
+    margin: 0 auto;
+    padding: 0 32px;
+    max-width: 1376px;
+
 }
 .header{
     display: flex;
@@ -20,9 +25,9 @@ body{
     height: 108px;
     margin-top: 12px;
     margin-left: 32px; */
-    max-width: 1376px;
+    /* max-width: 1376px;
     margin: 12px auto 0 auto;
-    padding: 0 32px;
+    padding: 0 32px; */
     
 }
 .menu {
@@ -59,8 +64,8 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
-    max-width: 1376px;
-    padding: 160px 32px;
+    /* max-width: 1376px;
+    padding: 160px 32px; */
     /* margin: 0 auto; */
     /* width: 1376px;
     height: 1107px;
@@ -131,9 +136,11 @@ Left
 .about{
     font-family: Roboto, sans-serif;
     color: #212529;
-    margin: 0px 32px 0px 32px;
+    /* margin: 0px 32px 0px 32px; */
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+    
     
 }
 .about-left h2{
